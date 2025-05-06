@@ -40,17 +40,20 @@ main {
     margin-bottom: 0;
     font-size: 28px;
 }
-.feature-flex {
+.feature-flex,
+.item_content {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 0 40px 0;
     align-items: center;
 }
-.npc_img {
+.npc_img,
+.flipper-container {
     flex: 0 0 30%;
 }
-.npc-desc {
+.npc-desc,
+.item_desc {
     font-size: 16px;
     margin: 12px;
 }
