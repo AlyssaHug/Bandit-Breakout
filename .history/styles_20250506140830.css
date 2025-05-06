@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Wellfleet&display=swap");
+
+@font-face {
+    font-family: "Western Bang Bang";
+    src: url("fonts/WesternBangBang.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* Font Families */
+    --font-western: "Western Bang Bang", sans-serif;
+    --font-wellfleet: "Wellfleet", serif;
+
+    /* Font Sizes */
+    --font-size-h1: 48px;
+    --font-size-h2: 36px;
+    --font-size-h3: 32px;
+    --font-size-h4: 24px;
+    --font-size-body: 14px;
+    --font-size-caption: 11px;
+}
+
+html {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #EAD8A9;
+}
+
+.about_section-heading {
+    height: 150px;
+}
+.about_section-text {
+    font-size: var(--font-size-h4);
+    font-family: var(--font-wellfleet);
+}
+
+.team_section-heading {
+  width: 220px;
+}

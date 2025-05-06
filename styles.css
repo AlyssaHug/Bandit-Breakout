@@ -22,19 +22,51 @@
 }
 
 html {
-    width: 70%;
-    margin: 0 auto;
-    background-color: #EAD8A9;
+    background-color: #ead8a9;
+    height: 100%;
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_section{
+    width: 60%;
+    padding: 20px;
+    background: linear-gradient(
+            rgba(255, 188, 143, 0.45),
+            rgba(255, 188, 143, 0.45)
+        ),
+        url("/img/wood.jpg");
 }
 
 .about_section-heading {
-    width: 150px;
+    height: 70px;
 }
 .about_section-text {
     font-size: var(--font-size-h4);
     font-family: var(--font-wellfleet);
+    color: #441107;
 }
 
 .team_section-heading {
-  width: 220px;
+    height: 70px;
+}
+
+.story_section-heading {
+    height: 70px;
+}
+
+.screenshots_section-heading {
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.gallery-img{
+    width: 31%;
+    margin: 8px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
