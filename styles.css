@@ -45,7 +45,7 @@ body {
 .about_section-heading {
     height: 70px;
 }
-.about_section-text {
+.main_section-text {
     font-size: var(--font-size-h4);
     font-family: var(--font-wellfleet);
     color: #441107;
