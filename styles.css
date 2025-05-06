@@ -1,0 +1,30 @@
+html {
+    background-color: #ead8a9;
+    height: 100%;
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.member {
+    width: 100%;
+    object-fit: cover;
+}
+main {
+    width: 60%;
+    padding: 20px;
+    background: linear-gradient(
+            rgba(255, 188, 143, 0.3),
+            rgba(255, 188, 143, 0.3)
+        ),
+        url("/images/wood.jpg");
+    align-items: center;
+}
