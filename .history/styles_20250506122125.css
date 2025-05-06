@@ -27,12 +27,16 @@ html {
     background-color: #EAD8A9;
 }
 
+.main_section{
+  background-color: #77612A;
+}
 .about_section-heading {
     width: 150px;
 }
 .about_section-text {
     font-size: var(--font-size-h4);
     font-family: var(--font-wellfleet);
+    color: white;
 }
 
 .team_section-heading {

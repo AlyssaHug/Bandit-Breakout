@@ -24,17 +24,12 @@
 html {
     width: 70%;
     margin: 0 auto;
-    background-color: #EAD8A9;
+    background-color: ;
 }
-
 .about_section-heading {
     width: 150px;
 }
 .about_section-text {
     font-size: var(--font-size-h4);
     font-family: var(--font-wellfleet);
-}
-
-.team_section-heading {
-  width: 220px;
 }

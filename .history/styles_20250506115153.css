@@ -21,20 +21,15 @@
     --font-size-caption: 11px;
 }
 
-html {
+.html {
     width: 70%;
+    text-align: center;
     margin: 0 auto;
-    background-color: #EAD8A9;
 }
-
 .about_section-heading {
     width: 150px;
 }
 .about_section-text {
     font-size: var(--font-size-h4);
     font-family: var(--font-wellfleet);
-}
-
-.team_section-heading {
-  width: 220px;
 }
