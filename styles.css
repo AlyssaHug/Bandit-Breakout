@@ -54,3 +54,28 @@ main {
     font-size: 16px;
     margin: 12px;
 }
+/*=====Item flipper=====*/
+.flipper-container {
+    width: 160px;
+    height: 200px;
+    margin: 50px auto;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.flipper-image {
+    object-fit: cover;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, height 0s linear 1s;
+}
+
+.flipper-image.active {
+    opacity: 1;
+    height: 100%;
+    visibility: visible;
+    transition: opacity 1s ease-in-out, height 0s linear 1s;
+}
