@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Wellfleet&display=swap");
+
+@font-face {
+    font-family: "Western Bang Bang";
+    src: url("fonts/WesternBangBang.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* Font Families */
+    --font-western: "Western Bang Bang", sans-serif;
+    --font-wellfleet: "Wellfleet", serif;
+
+    /* Font Sizes */
+    --font-size-h1: 48px;
+    --font-size-h2: 36px;
+    --font-size-h3: 32px;
+    --font-size-h4: 24px;
+    --font-size-body: 14px;
+    --font-size-caption: 11px;
+}
+.bcit-map {
+    width: 400px;
+    height: 300px;
+    padding-left: 10px;
+    align-items: left;
+}
+.Contact-us {
+    padding: 10px 0 0 20px;
+    font-family: var(--font-wellfleet);
+    text-align: left;
+}
+footer {
+    background-image: url("img/board.png");
+    background-size: 200% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.feedback-section {
+    font-family: var(--font-wellfleet);
+}
+.feedback {
+    padding: 10px 0 0 10px;
+    width: 300px;
+    height: 100px;
+}
+
+.feedback-text {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-family: var(--font-wellfleet);
+    font-size: var(--font-size-body);
+    resize: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.email-text {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-family: var(--font-wellfleet);
+    font-size: var(--font-size-body);
+    resize: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.feedback-button {
+    width: 50%;
+    height: 30px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-family: var(--font-wellfleet);
+    font-size: var(--font-size-body);
+    resize: none;
+    background-color: rgba(155, 123, 55, 0.9);
+}
+
+.Contact-us a {
+    color: #ffffff; /* Using the same color as your feedback button */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.Contact-us a:hover {
+    color: #442c06; /* Darker shade for hover effect */
+    text-decoration: underline;
+}
