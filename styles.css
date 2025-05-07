@@ -45,6 +45,7 @@ body {
 .about_section-heading {
     height: 70px;
 }
+
 .main_section-text {
     font-size: var(--font-size-h4);
     font-family: var(--font-wellfleet);
@@ -52,6 +53,7 @@ body {
 }
 
 .team_section-heading {
+    
     height: 70px;
 }
 
