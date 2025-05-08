@@ -1,3 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Wellfleet&display=swap");
+
+@font-face {
+    font-family: "Western Bang Bang";
+    src: url("fonts/WesternBangBang.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* Font Families */
+    --font-western: "Western Bang Bang", sans-serif;
+    --font-wellfleet: "Wellfleet", serif;
+
+    /* Font Sizes */
+    --font-size-h1: 48px;
+    --font-size-h2: 36px;
+    --font-size-h3: 32px;
+    --font-size-h4: 24px;
+    --font-size-body: 14px;
+    --font-size-caption: 11px;
+}
 html {
     background-color: #ead8a9;
     height: 100%;
@@ -39,13 +61,14 @@ main {
     margin-left: 16px;
     display: inline-block;
 }
-.npc_img {
+.feature_img {
     width: 50%;
 }
 .subheader {
     margin-left: 80px;
     margin-bottom: 0;
-    font-size: 28px;
+    font-family: var(--font-wellfleet);
+    font-size: var(--font-size-h2);
 }
 .feature-flex,
 .item_content {
@@ -55,13 +78,16 @@ main {
     margin: 10px 40px;
     align-items: center;
 }
-.npc_img,
+.feature_img,
 .flipper-container {
     flex: 0 0 30%;
 }
+
 .npc-desc,
-.item_desc {
-    font-size: 16px;
+.item_desc,
+.shop_desc {
+    font-family: var(--font-wellfleet);
+    font-size: var(--font-size-body);
     margin: 12px;
     max-width: 300px;
 }
