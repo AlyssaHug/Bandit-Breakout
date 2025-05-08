@@ -17,7 +17,7 @@
     --font-size-h2: 36px;
     --font-size-h3: 32px;
     --font-size-h4: 24px;
-    --font-size-body: 14px;
+    --font-size-body: 16px;
     --font-size-caption: 11px;
 }
 html {
@@ -32,18 +32,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.team {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 
-    margin-bottom: 20px;
-}
-.member {
-    width: 28%;
-    object-fit: cover;
-    padding: 10px;
-}
 main {
     margin-top: 50px;
     width: 60%;
@@ -60,9 +49,7 @@ main {
     height: 70px;
     margin-left: 16px;
     display: inline-block;
-}
-.feature_img {
-    width: 50%;
+    margin-top: 12px;
 }
 .subheader {
     margin-left: 80px;
@@ -70,12 +57,26 @@ main {
     font-family: var(--font-wellfleet);
     font-size: var(--font-size-h2);
 }
+/*=====Features section=====*/
+.feature_img {
+    width: 50%;
+}
+.items,
+.npc,
+.shop {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#shop_img {
+    width: 35%;
+}
+
 .feature-flex,
 .item_content {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 10px 40px;
+    gap: 40px;
     align-items: center;
 }
 .feature_img,
@@ -83,18 +84,18 @@ main {
     flex: 0 0 30%;
 }
 
-.npc-desc,
+.npc_desc,
 .item_desc,
 .shop_desc {
     font-family: var(--font-wellfleet);
     font-size: var(--font-size-body);
-    margin: 12px;
+
     max-width: 300px;
 }
 /*=====Item flipper=====*/
 .flipper-container {
-    width: 160px;
-    height: 200px;
+    width: 180px;
+    height: 220px;
     overflow: hidden;
     display: inline-block;
     border-radius: 10px;
@@ -132,4 +133,18 @@ main {
     display: inline-block;
     text-align: center;
     text-decoration: none;
+}
+/*=====Team styles=====*/
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.member {
+    width: 28%;
+    object-fit: cover;
+    padding: 10px;
 }
