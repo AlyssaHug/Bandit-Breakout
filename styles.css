@@ -128,10 +128,12 @@ main {
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
-    padding: 10px 0;
+    justify-content: space-between;
+    flex-direction: row;
+
     background-color: rgb(46, 23, 15);
     z-index: 100;
+    color: #b58467;
     align-items: center;
 }
 
@@ -139,16 +141,25 @@ main {
     font-family: var(--font-western);
     font-size: 60px;
     margin: 0;
+    margin-left: 16px;
     flex: 0 0 20%;
+}
+a {
     color: #b58467;
 }
 .nav_btn {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    color: #b58467;
+    margin: 0;
+    padding: 24px 16px;
+
     font-family: var(--font-wellfleet);
-    font-size: var(--font-size-body);
+    font-size: var(--font-size-h4);
+}
+a:hover {
+    color: #fff;
+    background-color: #503120;
 }
 /*=====Team styles=====*/
 
