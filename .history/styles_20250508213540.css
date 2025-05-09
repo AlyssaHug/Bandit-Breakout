@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Wellfleet&display=swap");
+
+@font-face {
+    font-family: "Western Bang Bang";
+    src: url("fonts/WesternBangBang.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* Font Families */
+    --font-western: "Western Bang Bang", sans-serif;
+    --font-wellfleet: "Wellfleet", serif;
+
+    /* Font Sizes */
+    --font-size-h1: 48px;
+    --font-size-h2: 36px;
+    --font-size-h3: 32px;
+    --font-size-h4: 24px;
+    --font-size-body: 14px;
+    --font-size-caption: 11px;
+}
+
+html {
+    background-color: #ffd37a;
+    height: 100%;
+    color: #441107;
+    scroll-behavior: smooth;
+}
+
+.about_section-heading {
+    margin-left: 16px;
+    margin-top: 20px;
+    height: 70px;
+}
+
+.main_section-text {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: var(--font-size-h4);
+    font-family: var(--font-wellfleet);
+    color: #441107;
+}
+
+.story_section-heading {
+    margin-left: 16px;
+    height: 70px;
+}
+
+.screenshots_section-heading {
+    margin-left: 16px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.gallery-img {
+    width: 31%;
+    margin: 16px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.background-wrapper {
+    margin: 0 auto;
+
+    width: 60%;
+    background: linear-gradient(
+            rgba(255, 188, 143, 0.45),
+            rgba(255, 188, 143, 0.45)
+        ),
+        url("/images/wood.jpg");
+    border-radius: 32px 32px 0 0;
+}
+.section-head {
+    height: 70px;
+    margin-left: 16px;
+    display: inline-block;
+    margin-top: 12px;
+}
+.back_banner {
+    z-index: -2;
+    left: 0;
+    width: 101.2%;
+    left: 0;
+    margin-left: -10px;
+    margin-bottom: -32px;
+}
+.subheader {
+    margin-left: 80px;
+    margin-bottom: 0;
+    font-family: var(--font-wellfleet);
+    font-size: var(--font-size-h2);
+}
+/*=====Features section=====*/
+.feature_img {
+    width: 50%;
+}
+.items,
+.npc,
+.shop {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#shop_img {
+    width: 35%;
+}
+
+.feature-flex,
+.item_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.feature_img,
+.flipper-container {
+    flex: 0 0 30%;
+}
+
+.npc_desc,
+.item_desc,
+.shop_desc {
+    font-family: var(--font-wellfleet);
+    font-size: var(--font-size-body);
+
+    max-width: 300px;
+}
+/*=====Item flipper=====*/
+.flipper-container {
+    width: 180px;
+    height: 220px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.flipper-image {
+    object-fit: cover;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, height 0s linear 1s;
+}
+
+.flipper-image.active {
+    opacity: 1;
+    height: 100%;
+    visibility: visible;
+    transition: opacity 1s ease-in-out, height 0s linear 1s;
+}
+/*=====NavBar styles=====*/
+.nav {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    background-color: rgb(46, 23, 15);
+    z-index: 100;
+    color: #b58467;
+    align-items: center;
+}
+
+.nav_title {
+    font-family: var(--font-western);
+    font-size: 60px;
+    margin: 0;
+    margin-left: 16px;
+    flex: 0 0 20%;
+}
+a {
+    color: #b58467;
+}
+.nav_btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    padding: 24px 16px;
+
+    font-family: var(--font-wellfleet);
+    font-size: var(--font-size-h4);
+}
+a:hover {
+    color: #fff;
+    background-color: #503120;
+}
+/*=====Team styles=====*/
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.member {
+    width: 28%;
+    object-fit: cover;
+    padding: 10px;
+}
