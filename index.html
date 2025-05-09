@@ -13,8 +13,40 @@
     <body>
         <header></header>
         <main>
-            <div class="download-now"></div>
-            <div class="Contact-us-apps"></div>
+            <div class="download-now">
+                <img
+                    src="img/Icons/app-store-apple-com.svg"
+                    alt="Download Now" />
+                <img
+                    src="img/Icons/google-play-badge-com.svg"
+                    alt="Download Now" />
+            </div>
+            <div class="Contact-us-apps">
+                <img
+                    src="/img/Icons/discord.svg"
+                    alt="Discord" />
+                <img
+                    src="/img/Icons/instagram.svg"
+                    alt="Instagram" />
+                <img
+                    src="/img/Icons/facebook.svg"
+                    alt="Facebook" />
+                <img
+                    src="/img/Icons/twitter.svg"
+                    alt="Twitter" />
+                <img
+                    src="/img/Icons/youtube.svg"
+                    alt="Youtube" />
+                <img
+                    src="/img/Icons/tiktok.svg"
+                    alt="Tiktok" />
+                <img
+                    src="/img/Icons/twitch.svg"
+                    alt="Twitch" />
+                <img
+                    src="/img/Icons/reddit.svg"
+                    alt="Reddit" />
+            </div>
         </main>
         <footer>
             <div class="Contact-us">
@@ -31,26 +63,34 @@
                     class="bcit-map"
                     src="img/BCIT.png"
                     alt="BCIT Map" />
+                <p>3700 Willingdon Ave, Burnaby, BC V5G 3H2</p>
             </div>
             <section class="feedback-section">
-                <h1>Feedback</h1>
-                <div class="feedback-email">
-                    <textarea
-                        class="email-text"
-                        placeholder="Email..."></textarea>
-                </div>
+                <h1 class="feedback-title">Feedback</h1>
                 <div class="feedback">
-                    <textarea
-                        class="feedback-text"
-                        placeholder="Enter your feedback here..."
-                        rows="5"
-                        cols="40"></textarea>
+                    <div class="feedback-form">
+                        <label for="feedback-email">Email:</label>
+                        <input
+                            type="email"
+                            id="feedback-email"
+                            class="feedback-email"
+                            placeholder="Enter your email" />
+
+                        <label for="feedback-text">Comments:</label>
+                        <textarea
+                            id="feedback-text"
+                            class="feedback-text"
+                            placeholder="Enter your feedback here..."
+                            rows="6"
+                            cols="40"></textarea>
+
+                        <button
+                            type="submit"
+                            class="feedback-button">
+                            Submit Feedback
+                        </button>
+                    </div>
                 </div>
-                <button
-                    class="feedback-button"
-                    type="submit">
-                    Send
-                </button>
             </section>
         </footer>
     </body>
