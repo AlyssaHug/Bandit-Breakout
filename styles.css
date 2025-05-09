@@ -21,7 +21,7 @@
     --font-size-caption: 11px;
 }
 html {
-    background-color: #db813e;
+    background-color: #ffd37a;
     height: 100%;
     color: #441107;
     scroll-behavior: smooth;
@@ -29,6 +29,7 @@ html {
 main {
     display: flex;
     justify-content: center;
+    margin-top: 0;
 }
 
 .background-wrapper {
@@ -48,10 +49,12 @@ main {
     margin-top: 12px;
 }
 .back_banner {
-    z-index: -1;
+    z-index: -2;
     left: 0;
-    width: 100%;
-    justify-content: center;
+    width: 101.2%;
+    left: 0;
+    margin-left: -10px;
+    margin-bottom: -32px;
 }
 .subheader {
     margin-left: 80px;
@@ -131,6 +134,7 @@ main {
     z-index: 100;
     align-items: center;
 }
+
 .nav_title {
     font-family: var(--font-western);
     font-size: 60px;
