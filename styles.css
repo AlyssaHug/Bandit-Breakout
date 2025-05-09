@@ -1,25 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Wellfleet&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
 
 @font-face {
-    font-family: "Western Bang Bang";
-    src: url("fonts/WesternBangBang.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Western Bang Bang';
+  src: url('fonts/WesternBangBang.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 :root {
     /* Font Families */
-    --font-western: "Western Bang Bang", sans-serif;
-    --font-wellfleet: "Wellfleet", serif;
-
+    --font-western: 'Western Bang Bang', sans-serif;
+    --font-wellfleet: 'Wellfleet', serif;
+  
     /* Font Sizes */
     --font-size-h1: 48px;
     --font-size-h2: 36px;
     --font-size-h3: 32px;
     --font-size-h4: 24px;
-    --font-size-body: 16px;
+    --font-size-body: 14px;
     --font-size-caption: 11px;
-}
+  }
+  
 html {
     background-color: #ffd37a;
     height: 100%;
@@ -175,3 +176,4 @@ a:hover {
     object-fit: cover;
     padding: 10px;
 }
+
