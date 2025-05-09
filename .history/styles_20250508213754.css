@@ -55,6 +55,8 @@ html {
 }
 
 .gallery-img {
+    display: flex;
+    flex-wrap: nowrap;
     width: 30%;
     margin: 16px;
     border-radius: 4px;

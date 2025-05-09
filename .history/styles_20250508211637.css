@@ -1,17 +1,67 @@
-@import url("https://fonts.googleapis.com/css2?family=Wellfleet&display=swap");
+
+
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_section{
+    width: 60%;
+    padding: 20px;
+    background: linear-gradient(
+            rgba(255, 188, 143, 0.45),
+            rgba(255, 188, 143, 0.45)
+        ),
+        url("/img/wood.jpg");
+}
+
+.about_section-heading {
+    height: 70px;
+}
+
+.main_section-text {
+    font-size: var(--font-size-h4);
+    font-family: var(--font-wellfleet);
+    color: #441107;
+}
+
+.team_section-heading {
+    
+    height: 70px;
+}
+
+.story_section-heading {
+    height: 70px;
+}
+
+.screenshots_section-heading {
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.gallery-img{
+    width: 31%;
+    margin: 8px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+@import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
 
 @font-face {
-    font-family: "Western Bang Bang";
-    src: url("fonts/WesternBangBang.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Western Bang Bang';
+  src: url('fonts/WesternBangBang.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 :root {
     /* Font Families */
-    --font-western: "Western Bang Bang", sans-serif;
-    --font-wellfleet: "Wellfleet", serif;
-
+    --font-western: 'Western Bang Bang', sans-serif;
+    --font-wellfleet: 'Wellfleet', serif;
+  
     /* Font Sizes */
     --font-size-h1: 48px;
     --font-size-h2: 36px;
@@ -19,58 +69,22 @@
     --font-size-h4: 24px;
     --font-size-body: 14px;
     --font-size-caption: 11px;
-}
-
+  }
+  
 html {
     background-color: #ffd37a;
     height: 100%;
     color: #441107;
     scroll-behavior: smooth;
 }
-
-.about_section-heading {
-    margin-left: 16px;
-    margin-top: 20px;
-    height: 70px;
-}
-
-.main_section-text {
-    margin-left: 16px;
-    margin-right: 16px;
-    font-size: var(--font-size-h4);
-    font-family: var(--font-wellfleet);
-    color: #441107;
-}
-
-.story_section-heading {
-    margin-left: 16px;
-    height: 70px;
-}
-
-
-.screenshots_section-heading {
-    margin-left: 16px;
-    height: 70px;
-    margin-bottom: 20px;
-}
-
-.gallery-img {
-    width: 30%;
-    margin: 16px;
-    border-radius: 4px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-}
-
 main {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
+    margin-top: 0;
 }
 
 .background-wrapper {
-    margin: 0 auto;
-
+    margin: 0;
     width: 60%;
     background: linear-gradient(
             rgba(255, 188, 143, 0.45),
@@ -212,3 +226,4 @@ a:hover {
     object-fit: cover;
     padding: 10px;
 }
+

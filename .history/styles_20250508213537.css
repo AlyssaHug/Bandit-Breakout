@@ -36,7 +36,7 @@ html {
 
 .main_section-text {
     margin-left: 16px;
-    margin-right: 16px;
+    margin-right: 16p;
     font-size: var(--font-size-h4);
     font-family: var(--font-wellfleet);
     color: #441107;
@@ -47,7 +47,6 @@ html {
     height: 70px;
 }
 
-
 .screenshots_section-heading {
     margin-left: 16px;
     height: 70px;
@@ -55,7 +54,7 @@ html {
 }
 
 .gallery-img {
-    width: 30%;
+    width: 31%;
     margin: 16px;
     border-radius: 4px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);

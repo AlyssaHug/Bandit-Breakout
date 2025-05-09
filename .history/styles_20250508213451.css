@@ -1,17 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Wellfleet&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
 
 @font-face {
-    font-family: "Western Bang Bang";
-    src: url("fonts/WesternBangBang.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Western Bang Bang';
+  src: url('fonts/WesternBangBang.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 :root {
     /* Font Families */
-    --font-western: "Western Bang Bang", sans-serif;
-    --font-wellfleet: "Wellfleet", serif;
-
+    --font-western: 'Western Bang Bang', sans-serif;
+    --font-wellfleet: 'Wellfleet', serif;
+  
     /* Font Sizes */
     --font-size-h1: 48px;
     --font-size-h2: 36px;
@@ -19,8 +19,8 @@
     --font-size-h4: 24px;
     --font-size-body: 14px;
     --font-size-caption: 11px;
-}
-
+  }
+  
 html {
     background-color: #ffd37a;
     height: 100%;
@@ -28,35 +28,40 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
 .about_section-heading {
     margin-left: 16px;
     margin-top: 20px;
     height: 70px;
 }
 
+
+
 .main_section-text {
     margin-left: 16px;
-    margin-right: 16px;
     font-size: var(--font-size-h4);
     font-family: var(--font-wellfleet);
     color: #441107;
 }
 
-.story_section-heading {
-    margin-left: 16px;
+.team_section-heading {
+    
     height: 70px;
 }
 
+.story_section-heading {
+    height: 70px;
+}
 
 .screenshots_section-heading {
-    margin-left: 16px;
     height: 70px;
     margin-bottom: 20px;
 }
 
-.gallery-img {
-    width: 30%;
-    margin: 16px;
+.gallery-img{
+    width: 31%;
+    margin: 8px;
     border-radius: 4px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
@@ -212,3 +217,4 @@ a:hover {
     object-fit: cover;
     padding: 10px;
 }
+

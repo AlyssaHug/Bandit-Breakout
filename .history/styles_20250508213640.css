@@ -47,6 +47,14 @@ html {
     height: 70px;
 }
 
+.screenshots_section {
+    background: linear-gradient(
+        rgba(255, 188, 143, 0.45),
+        rgba(255, 188, 143, 0.45)
+    ),
+    url("/images/wood.jpg");
+border-radius: 32px 32px 0 0;
+}
 
 .screenshots_section-heading {
     margin-left: 16px;
@@ -55,7 +63,7 @@ html {
 }
 
 .gallery-img {
-    width: 30%;
+    width: 31%;
     margin: 16px;
     border-radius: 4px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
