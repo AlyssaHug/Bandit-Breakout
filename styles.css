@@ -20,10 +20,16 @@
     --font-size-body: 14px;
     --font-size-caption: 11px;
 }
-.download-now img {
-    max-width: 10%;
+.download {
+    max-width: 25%;
     display: flex;
     justify-content: space-between;
+}
+.download img {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    align-items: center;
 }
 .Contact-us-apps {
     display: flex;
