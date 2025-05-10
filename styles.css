@@ -262,6 +262,7 @@ main {
     justify-content: center;
     gap: 40px;
     align-items: center;
+    margin:8px;
 }
 .feature_img,
 .flipper-container {
@@ -321,6 +322,7 @@ main {
     margin-left: 16px;
     flex: 0 0 20%;
 }
+
 a {
     color: #b58467;
 }
