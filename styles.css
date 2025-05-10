@@ -239,9 +239,7 @@ main {
     margin-bottom: -32px;
 }
 .subheader {
-    margin-left: 80px;
-    margin-bottom: 0;
-    font-family: var(--font-wellfleet);
+    margin-left: 16px;
     font-size: var(--font-size-h2);
 }
 /*=====Features section=====*/
@@ -251,8 +249,7 @@ main {
 .items,
 .npc,
 .shop {
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin: 0 8px;
 }
 #shop_img {
     width: 35%;
@@ -274,10 +271,8 @@ main {
 .npc_desc,
 .item_desc,
 .shop_desc {
-    font-family: var(--font-wellfleet);
-    font-size: var(--font-size-body);
-
-    max-width: 300px;
+    margin-left: 16px;
+    font-size: var(--font-size-h4);
 }
 /*=====Item flipper=====*/
 .flipper-container {
@@ -335,7 +330,6 @@ a {
     text-decoration: none;
     margin: 0;
     padding: 24px 16px;
-
     font-family: var(--font-wellfleet);
     font-size: var(--font-size-h4);
 }
