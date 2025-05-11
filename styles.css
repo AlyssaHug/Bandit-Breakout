@@ -199,9 +199,16 @@ footer {
     margin-bottom: 20px;
 }
 
+.screenshots_section-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;  
+}
+
 .gallery-img {
     width: 30%;
-    margin: 16px;
     border-radius: 4px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
@@ -344,6 +351,7 @@ a:hover {
 .team {
     display: flex;
     flex-wrap: wrap;
+    width: 30%;
     justify-content: center;
     margin-top: 12px;
     margin-bottom: 20px;
