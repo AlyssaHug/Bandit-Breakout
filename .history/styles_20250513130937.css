@@ -21,10 +21,6 @@
     --font-size-caption: 11px;
 }
 
-header {
-    overflow-y: hidden;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -39,7 +35,6 @@ html {
     color: #441107;
     scroll-behavior: smooth;
     overflow-x: hidden;
-    
 }
 
 .video-container {
@@ -47,23 +42,25 @@ html {
 }
 
 .video {
-    padding-top: 140px;
+    padding-top: 20px;
     padding-bottom: 20px;
     margin: 0 auto;
+    margin-top: 120px;
     display: block;
     width: 70%;
 }
 
 .download {
+    max-width: 20%;
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
   
 }
 
 .download img {
-    width: 20%;
+    width: 100%;
     height: auto;
     margin: 20px;
     align-items: center;
@@ -279,7 +276,6 @@ main {
     margin-left: 16px;
     display: inline-block;
     margin-top: 12px;
-    
 }
 .back_banner {
     z-index: -2;
