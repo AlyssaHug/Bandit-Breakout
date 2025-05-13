@@ -21,7 +21,13 @@
     --font-size-caption: 11px;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
 html {
+    margin: 0;
+    padding: 0;
     background-color: #ffd37a;
     font-family: var(--font-wellfleet);
     height: 100%;
@@ -30,10 +36,10 @@ html {
 }
 
 .download {
-    max-width: 17%;
+    max-width: 20%;
     display: flex;
     justify-content: space-between;
-    margin-left: 250px;
+    margin: 20px 0 20px 170px;
 }
 
 .download img {
@@ -46,44 +52,45 @@ html {
 
 .Contact-us-apps {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    width: 100%;
     background-color: rgb(134, 82, 65);
-
     padding: 10px 10px 10px 10px;
 }
+
 .bcit-map {
     width: 400px;
     height: 300px;
     align-items: left;
     border-radius: 20px;
 }
+
 .Contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 10px 0 0 20px;
     font-family: var(--font-wellfleet);
-    text-align: left;
     color: white;
-    margin-left: 450px;
+    text-align: left;
 }
+
 footer {
     background-color: rgb(46, 23, 15);
     min-height: 680px;
     width: 100%;
-    height: auto;
-    margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
-.feedback-title {
-    margin-left: 20px;
-}
+
 .feedback-section {
     font-family: var(--font-wellfleet);
     color: rgb(253, 253, 253);
     padding-top: 20px;
     margin-left: auto;
-    margin-right: 450px;
 }
 .feedback {
     padding-left: 10px;
@@ -91,6 +98,12 @@ footer {
     width: 400px;
     height: 300px;
 }
+
+.feedback-title {
+    text-align: left; 
+    margin-left: 29px;
+}
+
 
 .feedback-form {
     display: flex;
@@ -154,7 +167,6 @@ footer {
     font-size: var(--font-size-body);
     cursor: pointer;
     transition: background-color 0.3s ease;
-    align-self: center;
 }
 
 .feedback-button:hover {
@@ -187,6 +199,17 @@ footer {
     color: #441107;
 }
 
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;                
+    padding: 40px;
+    flex-wrap: wrap;          
+    text-align: center;
+}
+
+
 .story_section-heading {
     margin-left: 16px;
     height: 70px;
@@ -194,7 +217,6 @@ footer {
 
 .contact-heading {
     height: 70px;
-    margin-top: 22px;
 }
 
 .screenshots_section-heading {
@@ -223,6 +245,7 @@ main {
     flex-direction: column;
     margin: 0 auto;
 }
+
 
 .background-wrapper {
     margin: 0 auto;
@@ -257,11 +280,13 @@ main {
 .feature_img {
     width: 50%;
 }
+
 .items,
 .npc,
 .shop {
     margin: 0 8px;
 }
+
 #shop_img {
     width: 35%;
 }
@@ -275,6 +300,7 @@ main {
     align-items: center;
     margin:8px;
 }
+
 .feature_img,
 .flipper-container {
     flex: 0 0 30%;
@@ -330,10 +356,13 @@ main {
     font-family: var(--font-western);
     font-size: 60px;
     margin: 0;
-    margin-left: 16px;
+    margin-left: 30px;
     flex: 0 0 20%;
 }
 
+.nav_items{
+    margin-right: 30px;
+}
 a {
     color: #b58467;
 }
@@ -355,13 +384,15 @@ a:hover {
 .team {
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
+    width: 100%;
     justify-content: center;
     margin-top: 12px;
     margin-bottom: 20px;
 }
+
+
 .member {
-    width: 28%;
+    width: 30%;
     object-fit: cover;
     padding: 10px;
 }
