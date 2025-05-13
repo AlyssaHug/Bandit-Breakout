@@ -56,10 +56,6 @@ html {
 
 .tagline-text{
     width: 70%;
-    display: flex;
-    justify-content: center;
-    transform: translate(22%);
-    position: absolute;
     text-align: center;
     font-size: 48px;
 }
